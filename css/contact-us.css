@@ -1,0 +1,178 @@
+/* CSS contact-us Segunda Clase*/
+
+p {
+    color: darkblue;
+    background-color: rgb(255, 128, 0); /*Red,green,blue*/
+    /* border: 5px solid red; Forma rapida (tamaño, estilo, color) del borde
+    alrededor del texto*/
+    border-width: 5px;
+    border-color: chartreuse;
+    border-style: groove;
+    /* margin: 100px; afecta a todos los lados incluyendo el borde*/
+    /* margin: 75px 0; afecta horizontal y verticalmente */
+    /* margin: 50px 50px 0 0; /*arriba, derecha, abajo e izquierda*/
+    padding: 20px; /*Se maneja igual que el margin en distancias del texto con 
+    respecto al margen que lo rodea*/
+    width: 100px; /*tamaño de la caja o bordes*/
+    height: 50px; /*tamaño de la caja o bordes*/
+    text-align: center; /*Alineacion del texto*/
+    text-transform: uppercase; /*mayusculas, minusculas, etc...*/
+    text-decoration-line: underline; /*agregar linea al texto*/
+    text-shadow: 1px 1px 2px red; /*Agrega una sombra al texto 
+    box-shadow: horizontal offset | vertical offset | blur radius | 
+    spread radius (optional) | color*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*
+    tipografia que se va a utilizar en el texto*/
+    font-size: 20px;
+    /* display: inline; se utiliza para poner textos en una sola linea*/
+    position: sticky; /*posicion del elemento, donde se ubica en la pantalla*/
+}
+
+
+
+body {
+    background-color: rgba(230, 54, 54, 0.719);/*red, green, blue, transparencia, afecta al fondo*/
+    color: #FFFF; /*afecta solo al texto*/
+
+}
+
+.example {
+    /*display: grid;
+    justify-items: center; /*Alinea los elementos horizontalmente
+    text-align: center; /*Alinea el texto
+    align-items: center; /*Alinea los elementos verticalmente*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Pseudo-clases*/
+
+button:hover {
+    background: red;
+}
+
+/*Pagina sin visitar*/
+a:link {
+    color: blueviolet;
+    font-size: 30px;
+}
+/*Pagina visitada*/
+a:visited {
+    color: chartreuse;
+    font-size: 50px;
+}
+/*click en el enlace*/
+a:active {
+    color: deeppink;
+    font-size: 100px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Pseudo-elemento*/
+/*Primera letra del elementos*/
+p::first-letter{
+    font-size: 50px;
+}
+/*Primera linea del elementos*/
+p::first-line{
+    color: cadetblue
+}
+
+/*transiciones*/
+button{
+    width: 40px;
+    height: 30px;
+    transition: width 2s, height 5s, background-color 3s;
+}
+
+button:hover{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+}
+
+/*Animaciones*/
+.example{
+    background-color: red;
+    animation-name: ejemplo;
+    animation-duration: 5s;
+}
+
+@keyframes ejemplo {
+    from {background-color: red;}
+    to {background-color: orange;}
+}
+
+
+#animacion {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: chartreuse;
+    animation-name: moverse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moverse {
+    0% {right: 0px; top: 0px; background-color: aqua;}
+    25% {right: 200px; top: 0px; background-color: blue;}
+    50% {right: 200px; top: 200px; background-color: yellow;}
+    75% {right: 500px; top: 200px; background-color: black;}
+    100% {right: 0px; top: 0px; background-color: coral;}
+}
+
+
+/*Se utiliza para adaptar la pagina al tamaño de la resolucion de pantalla de algun
+dispositivo en el que se este visualizando dicha pagina*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example{
+        background-color: black;
+        grid-template-columns: 1fr; /*Permite dividir la pagina en columnas*/
+        flex-direction: column;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example{
+        background-color: red;
+        grid-template-columns: 1fr;
+        flex-direction: column; /*en la resolucion especifica cambia a columna*/
+        font-size: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example{
+        background-color: green;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: row; /*en la resolucion especifica cambia a fila*/
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example{
+        background-color: blue;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example{
+        background-color: purple;
+    }
+}

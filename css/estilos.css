@@ -1,0 +1,18 @@
+p {
+    color: red;
+    background-color: black;
+}
+h1 {
+    color: dodgerblue;
+}
+/*Estilizado de ID */
+#Intro {
+    color: blueviolet;
+    background: chartreuse;
+}
+
+/*Estilizado de clase*/
+.Titulares {
+    color: yellow;
+    background-color: tomato;
+}
