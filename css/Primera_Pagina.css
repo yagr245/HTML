@@ -27,25 +27,22 @@ a {
 }
 
 button {
-  margin: 20px;
-  width: 75px;
-  height: 30px;
-  transition: width 2s, height 5s;
+  margin: 50px;
+  width: 120px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
 }
 
-button:hover {
-  width: 100px;
-  height: 40px;
-}
 
 .robot svg {
   position: absolute;
-  top: 10%;
+  top: 3%;
   left: 50%;
   display: block;
   margin: 0 auto;
   margin-left: -300px;
-  transform: scale(0.4) translate(0, -100%);
+  transform: scale(0.35) translate(0, -100%);
   transform-origin: center;
   height: 800px;
   width: 600px;
