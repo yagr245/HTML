@@ -8,8 +8,8 @@ body {
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 1) 0%,
-    rgba(120, 25, 25, 1) 75%,
-    rgba(255, 255, 255, 1) 85%,
+    rgba(120, 25, 25, 1) 50%,
+    rgba(255, 255, 255, 1) 75%,
     rgba(147, 47, 47, 1) 95%
   );
   min-height: 525px;
