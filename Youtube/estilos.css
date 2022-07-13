@@ -50,7 +50,7 @@ nav{
 
 #sup_der{
     display: flex;
-    align-content: flex-end;
+    align-content: center;
     justify-content: space-between;
 }
 
