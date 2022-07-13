@@ -50,7 +50,7 @@ nav{
 
 #sup_der{
     display: flex;
-    align-content: center;
+
     justify-content: space-between;
 }
 
@@ -92,4 +92,10 @@ input{
     align-items: flex-start;
     justify-content: space-between;
     padding: 0px 5px;
+}
+
+.subder{
+    display: flex;
+
+    justify-content: space-between;
 }
