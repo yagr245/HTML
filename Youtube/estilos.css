@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+}
+
+aside{
+    grid-column: span 3;
+}
+
+button{
+    background-color: white;
+    border-style: none;
+    align-items: center;
+    margin: 3px;
+    width: 70px;
+    height: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+}
+
+button:hover{
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -10px 5px;
+}
+
+#rigth_content{
+    grid-column: span 95;
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    padding: 2px 40px;
+}
+
+#sup_der{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+.inicio2{
+    justify-content: space-between;
+    padding: 3px 50px;
+}
+
+input{
+    font-size: 15px;
+    height: 40px;
+    width: 540px;
+    padding: 10px;
+}
+
+.barra_busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos1{
+    display: flex;
+    align-items: center;
+    padding: 3px 50px;
+}
+
+.columna1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 1px;
+}
+
+.descripcion{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 5px;
+}
