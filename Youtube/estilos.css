@@ -50,7 +50,7 @@ nav{
 
 #sup_der{
     display: flex;
-    align-content: center;
+    align-content: flex-end;
     justify-content: space-between;
 }
 
@@ -83,7 +83,7 @@ input{
 .columna1{
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 3px 1px;
 }
 
