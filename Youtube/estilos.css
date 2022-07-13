@@ -21,6 +21,7 @@ button{
     height: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 11px;
+    justify-content: space-between;
 }
 
 button:hover{
@@ -69,7 +70,7 @@ input{
 
 .barra_busqueda{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
