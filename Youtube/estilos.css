@@ -37,7 +37,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: -10px 4px;
-    margin-left: 15px;
+
 }
 
 #rigth_content{
@@ -48,14 +48,14 @@ nav{
     display: flex;
     align-items: center;
     padding: 2px 35px;
-    margin-left: 15px;
+
 }
 
 #sup_der{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 100px;
+
 }
 
 
@@ -82,7 +82,7 @@ input{
     align-items: center;
     justify-content: space-between;
     padding: 3px 45px;
-    margin-left: 15px;
+
 }
 
 .columna1{
