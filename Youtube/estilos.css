@@ -53,6 +53,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 20px;
 }
 
 
@@ -79,6 +80,7 @@ input{
     align-items: center;
     justify-content: space-between;
     padding: 3px 45px;
+    margin-left: 6px;
 }
 
 .columna1{
