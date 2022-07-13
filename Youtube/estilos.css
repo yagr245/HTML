@@ -9,7 +9,7 @@ body {
 }
 
 aside{
-    grid-column: span 3;
+    grid-column: span 4;
 }
 
 button{
@@ -35,29 +35,29 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: -10px 5px;
+    padding: -10px 4px;
 }
 
 #rigth_content{
-    grid-column: span 95;
+    grid-column: span 96;
 }
 
 .navigator{
     display: flex;
     align-items: center;
-    padding: 2px 40px;
+    padding: 2px 35px;
 }
 
 #sup_der{
     display: flex;
-
+    align-items: center;
     justify-content: space-between;
 }
 
 
 .inicio2{
     justify-content: space-between;
-    padding: 3px 50px;
+    padding: 3px 45px;
 }
 
 input{
@@ -77,7 +77,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3px 50px;
+    padding: 3px 45px;
 }
 
 .columna1{
@@ -96,6 +96,6 @@ input{
 
 .subder{
     display: flex;
-
+    align-items: center;
     justify-content: space-between;
 }
